@@ -1,0 +1,30 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Cabin", sans-serif;
+  }
+  :root{
+    --whiteColor:#F9F9F9;
+    --greenColor:#5CD2B9;
+    --mainPadding:100px 200px;
+    --grayColor:#0D0D0D;
+    --fontSizeNameSection: 60px;
+    --linearGradient: linear-gradient(to right, rgba(255,255,255,0) 0%, rgba(92,210,185,.5) 100%) ;
+  }
+  :focus{
+    outline-color: var(--greenColor);
+    width: 150px;
+  }
+  .imgHead{
+    height: 170%;
+    position: absolute;
+    right: 10px;
+    top: -250px;
+    z-index: 0;
+  }
+  .divImgHead{
+    width: 40%;
+    height: 100%;
+    position: relative;
+  }
